@@ -6,19 +6,21 @@
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-	<div class="card">
+	<!-- Using article here since the card itself is what could be individually redistributed, with a title -->
+	<article class="card">
 		<h3 class="title">Peregrine Falcon</h3>
 		<img src="images/peregrine_falcon.jpg" alt="Peregrine Falcon">
-		<div class="information">
-			<p class="fact">The peregrine falcon is the fastest member of the animal kingdom</p>
+		<section class="information">
+			<!-- Using <em> and <strong> since these portions do seem to deserve emphasis -->
+			<p><em>The peregrine falcon is the fastest member of the animal kingdom</em></p> 
 			<ul class="facts">
-				<li><span class="label">Body Length</span>: 34 - 58 cm</li>
-				<li><span class="label">Wingspan</span>: 74 - 120 cm</li>
-				<li><span class="label">Highest Measured Speed</span>: 389 km/h</li>
-				<li><span class="label">Conservation Status</span>: Least Concern (Healthy population numbers)</li>
+				<li><strong>Body Length</strong>: 34 - 58 cm</li>
+				<li><strong>Wingspan</strong>: 74 - 120 cm</li>
+				<li><strong>Highest Measured Speed</strong>: 389 km/h</li>
+				<li><strong>Conservation Status</strong>: Least Concern (Healthy population numbers)</li>
 			</ul>
 			<p>By using high speed hunting dives to capture its prey, the peregrine falcon reaches speeds higher than any other animal on Earth, often in excess of 320 km/h. This blistering speed, coupled with the bird's habit of nesting in high-elevation urban environments (particularly skyscrapers and bridges), have made it a popular animal in modern culture. Due to pesticide usage in the 1960s, peregrine numbers declined worldwide, to the point of local extinction in some areas. With successful breeding programs and protection, however, the peregrine falcon is back at a conservation status of "Least Concern".</p>
-		</div>
-	</div>
+		</section>
+	</article>
 </body>
 </html>
