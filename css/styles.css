@@ -1,10 +1,16 @@
-/* add your CSS here */
-body {
-	font-family: Helvetica, Arial, sans-serif;
+body { font-family: Helvetica, Arial, sans-serif; }
+
+h3 { font-size: 24px; }
+
+ul {
+	list-style: none;
+	padding: 0px;
 }
-h3 {
-	font-size: 24px;
-}
+
+/* Card Styles */
+/* Note: chose to stick with using classes in some cases, in case
+the document was expanded. The following styles seem to apply only 
+to .card elements, rather than an entire document */
 .card {
 	border: 2px solid #666;
 	border-radius: 2px;
@@ -12,29 +18,20 @@ h3 {
 	padding: 10px;
 	width: 300px;
 }
-	.title {
-		color: #666;
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: 100;
-		margin: 0px;
-	}
-	.card img {
-		margin: 10px 0px;
-	}
-	.information {
-		color: #fff;
-		background-color: #666;
-		border: 1px solid #666;
-		padding: 0px 10px;
-	}
-		.fact {
-			font-style: italic;
-		}
-		.information ul {
-			list-style: none;
-			padding: 0px;
-		}
-			.label {
-				font-weight: bold;
-			}
+
+.title {
+	color: #666;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 0px;
+}
+
+.profile-picture { margin: 10px 0px; }
+
+.information {
+	color: #fff;
+	background-color: #666;
+	border: 1px solid #666;
+	padding: 0px 10px;
+}
